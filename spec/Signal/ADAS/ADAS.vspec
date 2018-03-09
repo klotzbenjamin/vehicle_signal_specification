@@ -44,7 +44,7 @@
 #
 - LaneDepartureDetection:
   type: branch
-  description: Signals from Land Departure Detection System
+  description: Signals from Lane Departure Detection System
 
 - LaneDepartureDetection.IsActive:
   type: Boolean
