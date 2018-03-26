@@ -307,12 +307,11 @@ entry example is given below:
 
 ```YAML
 - Drivetrain.Transmission.Speed:
-	type: Uint16
-	unit: km/h
-	min: 0
-	max: 300
-	description: The vehicle speed, as measured by the drivetrain.
-	sensor: Speedometer
+  type: Uint16
+  unit: km/h
+  min: 0
+  max: 300
+  description: The vehicle speed, as measured by the drivetrain.
 ```
 
 * **```Drivetrain.Transmission.Speed```**<br>
@@ -357,11 +356,9 @@ specified set of values. An example of an enumerated signal is given below:
 
 ```YAML
 - Chassis.Transmission.Gear:
-	type: Uint16,
-	enum: [ -1, 1, 2, 3, 4, 5, 6, 7, 8 ]
-	description: The selected gear. -1 is reverse.
-	sensor: Gearbox
-	actuator: Gearbox
+  type: Uint16,
+  enum: [ -1, 1, 2, 3, 4, 5, 6, 7, 8 ]
+  description: The selected gear. -1 is reverse.
 ```
 
 An enumerated signal entry has no ```min```, ```max```, or ```unit```
@@ -380,12 +377,11 @@ entry example is given below:
 
 ```YAML
 - Drivetrain.Transmission.Speed:
-	type: Uint16
-	unit: km/h
-	min: 0
-	max: 300
-	description: The vehicle speed, as measured by the drivetrain.
-	sensor: Speedometer
+  type: Uint16
+  unit: km/h
+  min: 0
+  max: 300
+  description: The vehicle speed, as measured by the drivetrain.
 ```
 
 * **```Drivetrain.Transmission.Speed```**<br>
