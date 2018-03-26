@@ -19,7 +19,7 @@
   
 - DriveType:
   type: String
-  enum: [ "unknown", "fwd", "rwd", "awd" ]
+  enum: [ "unknown", "forward wheel drive", "rear wheel drive", "all wheel drive" ]
   value: "unknown"
   description: Drive type.
 
